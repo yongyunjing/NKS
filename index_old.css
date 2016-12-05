@@ -1,0 +1,190 @@
+/*Navbar CSS*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    background-color: #5B4B42;
+    overflow-x: visible;
+    overflow-y: scroll;
+}
+
+#WelcomeToNKS {
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 100vh;
+    width: 100%;
+    display: table;
+}
+
+.LogoKit {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.LogoKitChild {
+    padding: 20px;
+    //    background-color: rgba(255, 255, 255, 0.7);
+    /*
+    border-style: solid;
+border-width: 5px;
+border-color: rgba(255, 255, 255, 0.7);
+*/
+    display: inline-block;
+    text-align: left;
+}
+
+.LogoKitChildChild {
+    display: table;
+}
+
+.NKSTitleKit {
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 20px;
+    font-family: 'Patua One', cursive;
+}
+
+.LinkToAboutUsDiv {
+    padding-right: 5px;
+    display: inline-block;
+}
+
+.LinkToAboutUs {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    color: black;
+    padding: 12px 28px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    transition: all .2s ease-in-out;
+}
+
+.LinkToAboutUsDiv > a {
+    text-decoration: none;
+}
+
+.LinkToAboutUs:hover {
+    transform: scale(1.1);
+}
+
+.LinkToContactUsDiv {
+    padding-left: 5px;
+    display: inline-block;
+}
+
+.LinkToContactUs {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    color: black;
+    padding: 12px 28px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    transition: all .2s ease-in-out;
+}
+
+.LinkToContactUsDiv > a {
+    text-decoration: none;
+}
+
+.LinkToContactUs:hover {
+    transform: scale(1.1);
+}
+
+.scrollDown {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 20px;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulsate {
+    0% {
+        -webkit-transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        -webkit-transform: scale(1.2, 1.2);
+        opacity: 0.0;
+    }
+}
+
+
+/*
+.inline {
+    float: left;
+}
+*/
+
+
+/*
+nav {
+    background-color: #aaa;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    color: #aaa;
+    background-color: #FFFFFF;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+    line-height: 200px;
+    vertical-align: middle;
+    width: 220px;
+    height: 200px;
+}
+
+nav a:hover {
+    background-color: #666;
+}
+
+
+Top Div Logo CSS
+
+.Background-Colour-Div {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: .nkslogo.height;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.Background-Colour-Div img.nkslogo {
+    height: 60px;
+    width: (.nkslogo.height/160)*137;
+    padding: 0.5em;
+}*/
