@@ -158,7 +158,7 @@ ul {
 }
 
 ul > a > img {
-    display: inline-block;
+    position: absolute;
     float: left;
     padding-top: 5px;
     max-height: 50px;
@@ -172,25 +172,32 @@ ul > div {
 
 li {
     display: inline-block;
-    width: 8em;
+    width: 8.5em;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.4);
     border-width: medium;
     vertical-align: middle;
+    transition: all .2s ease-in-out;
 }
 
 li a {
     font-family: comfortaa;
-    display: block;
+    display: inline-block;
     color: black;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     text-decoration: none;
+    margin-left: 5px;
 }
 
-li a:hover {
-    background-color: #111;
+li i {
+    display: inline-block;
+}
+
+li:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: scale(1.1);
 }
 
 
