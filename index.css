@@ -141,6 +141,51 @@ table {
 /* CSS Reset End */
 
 
+/* Navbar */
+
+ul {
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1;
+    text-align: center;
+    padding: 5px 0px 5px;
+}
+
+ul > a > img {
+    display: inline-block;
+    float: left;
+    max-height: 50px;
+    padding-left: 5px;
+}
+
+li {
+    display: inline-block;
+    width: 8em;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.4);
+    border-width: medium;
+}
+
+li a {
+    font-family: comfortaa;
+    display: block;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
 /* SplashKit */
 
 .SplashFill {
@@ -152,6 +197,8 @@ table {
     text-align: center;
 }
 
+
+/*
 .SplashKitWrapLarge {
     width: 95%;
     height: 95vh;
@@ -165,6 +212,7 @@ table {
     left: 50%;
     box-shadow: 0px 0px 20px inset;
 }
+*/
 
 .SplashKit {
     display: inline-block;
@@ -194,11 +242,16 @@ table {
     font-size: 1.5em
 }
 
+.LogoTextKit > a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .ButtonsKit {
     display: inline-block;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 0px;
-    width: 100%
+    max-height: 100%;
 }
 
 .ButtonsKit > div > a {
@@ -210,6 +263,7 @@ table {
 }
 
 .ButtonsKit > div {
+    padding: 20px;
     transition: all .2s ease-in-out;
     display: inline-block;
     font-family: "comfortaa";
@@ -217,14 +271,6 @@ table {
 
 .ButtonsKit > div:hover {
     transform: scale(1.1);
-}
-
-.ButtonLinkAbout {
-    margin-right: 10px;
-}
-
-.ButtonLinkContact {
-    margin-left: 10px;
 }
 
 .scrollArrow {
